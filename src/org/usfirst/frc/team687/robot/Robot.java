@@ -38,6 +38,8 @@ public class Robot extends IterativeRobot {
     	talon.configNominalOutputVoltage(0, 0);
     	talon.configPeakOutputVoltage(-12, 12);
     	
+    	talon.setPID(0.125, 0, 0);
+    	
     	joy = new Joystick(0);
     	
     	c = new Compressor();
