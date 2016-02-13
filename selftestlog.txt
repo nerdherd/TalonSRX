@@ -1,0 +1,41 @@
+The self test completed successfully.
+TALON is enabled.
+Mode: 2 : Velocity Close Loop
+Applied Throttle:    9.97% [1.28 V]
+Coast during neutral
+
+CloseLoopError: 409
+ProfileSlotSelect: 0
+
+Selected Device:6:CTRE MagEnc (rel)
+Pos (rot):   0.000 	Velocity (RPM):   0.00
+Pos:0 	Velocity:0
+
+Magnetic Encoder (Relative)
+Pos (rot):   2.653 	Velocity (RPM):  17.43
+Pos:10865 	Velocity:119
+Pins: A=0 B=0 Idx=0
+Idx rise edges:136
+
+Analog Input
+ADC: 103
+Pos:103 	Velocity:1
+
+Fwd Limit Switch is Open.  
+Rev Limit Switch is Open.  
+
+No Faults Present.
+
+Current(A):0.12         Battery(V):12.89            Temp(C):24.19
+
+Nominal Output:0,0
+Peak Output:-1023,1023
+Closed Loop Allowable Error:Slot0=0,Slot1=0
+Encoder CPR:0
+Poten Num Turns:0
+Volt Compens Rate (V/s):0
+
+Double click "Self-Test" to clear sticky faults.
+
+Plugin Build:Dec 16 2015 14:47:51
+Press "Refresh" to close this window.
