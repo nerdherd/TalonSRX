@@ -50,11 +50,15 @@ public class Robot extends IterativeRobot {
      * This function is called periodically during operator control
      */
     public void teleopPeriodic() {
+    	double scalar = (joy.getZ() + 1) * 5;
         if(joy.getRawButton(1))	{
-        	talon.set(60);
+        	talon.set(60*scalar);
         }	else	{
         	talon.set(0);
         }
+        
+        SmartDashboard.putNumber("Desired", scalar * 60);
+        SmartDashboard.putNumber("Vel", talon.getEncVelocity());
     }
     
     /**
